@@ -22,7 +22,7 @@ class Colors:
     BLUE = "\033[94m"
 
 logo = f'''{Colors.YELLOW}
-FAHIM KHAN
+UDAY THAKUR
 {Colors.RESET}'''
 
 def logx():
@@ -72,7 +72,7 @@ def bot_comment(task_id, fb_instances, comment_file_path, post_id, min_delay, ma
                 print(f'{Colors.RED}No comments found in file: {comment_file_path}{Colors.RESET}')
                 break
 
-app = Flask(__name__)
+app = Flask(__Main__)
 
 
 html_form = '''
